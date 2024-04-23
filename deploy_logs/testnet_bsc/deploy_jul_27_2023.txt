@@ -1,0 +1,251 @@
+crypto.contracts.bridge|master⚡ ⇒ truffle migrate -f 1 --to 1 --network bscTestnet
+
+Compiling your contracts...
+===========================
+> Compiling ./src/active/app/CrossChainBridge.sol
+> Compiling ./src/active/app/IMintableNFT.sol
+> Compiling ./src/active/app/MockERC1155Upgradeable.sol
+> Compiling ./src/active/app/MockERC20.sol
+> Compiling ./src/active/app/MockERC20Upgradeable.sol
+> Compiling ./src/active/app/MockERC721Upgradeable.sol
+> Compiling ./src/active/layerzero/interfaces/ILayerZeroEndpoint.sol
+> Compiling ./src/active/layerzero/interfaces/ILayerZeroReceiver.sol
+> Compiling ./src/active/layerzero/interfaces/ILayerZeroUserApplicationConfig.sol
+> Compiling ./src/active/layerzero/libraries/BytesLib.sol
+> Compiling ./src/active/layerzero/libraries/ExcessivelySafeCall.sol
+> Compiling ./src/active/layerzero/libraries/LzLib.sol
+> Compiling ./src/active/layerzero/lzApp/LZEndpointMock.sol
+> Compiling ./src/active/layerzero/lzApp/LzAppUpgradeable.sol
+> Compiling ./src/active/layerzero/lzApp/NonblockingLzAppUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/access/IAccessControlUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC1155/ERC1155Upgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155ReceiverUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC1155/IERC1155Upgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC1155/extensions/IERC1155MetadataURIUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol
+> Compiling @openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol
+> Compiling @openzeppelin/contracts/token/ERC1155/ERC1155.sol
+> Compiling @openzeppelin/contracts/token/ERC1155/IERC1155.sol
+> Compiling @openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol
+> Compiling @openzeppelin/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol
+> Compiling @openzeppelin/contracts/token/ERC20/ERC20.sol
+> Compiling @openzeppelin/contracts/token/ERC20/IERC20.sol
+> Compiling @openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol
+> Compiling @openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol
+> Compiling @openzeppelin/contracts/token/ERC721/ERC721.sol
+> Compiling @openzeppelin/contracts/token/ERC721/IERC721.sol
+> Compiling @openzeppelin/contracts/token/ERC721/IERC721Receiver.sol
+> Compiling @openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol
+> Compiling @openzeppelin/contracts/utils/Address.sol
+> Compiling @openzeppelin/contracts/utils/Context.sol
+> Compiling @openzeppelin/contracts/utils/Strings.sol
+> Compiling @openzeppelin/contracts/utils/introspection/ERC165.sol
+> Compiling @openzeppelin/contracts/utils/introspection/IERC165.sol
+> Artifacts written to /Volumes/Data/Projects/_boilerplates/crypto.contracts.bridge/src/abis
+> Compiled successfully using:
+   - solc: 0.8.4+commit.c7e474f2.Emscripten.clang
+
+Starting migrations...
+======================
+> Network name:    'bscTestnet'
+> Network id:      97
+> Block gas limit: 50000000 (0x2faf080)
+
+
+1_deploy_contracts.js
+=====================
+Owner: 0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+
+   Deploying 'MockERC20'
+   ---------------------
+   > transaction hash:    0x47a4cceb83e4ada0ad1b52cfc0489e0c7b633281f4168e3c032ec76e9eb23e5d
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x17D3e3819830672DC29cb7192b6641c297b0B838
+   > block number:        31919022
+   > block timestamp:     1690453603
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             0.498387835
+   > gas used:            644866 (0x9d702)
+   > gas price:           2.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001612165 ETH
+
+
+   Deploying 'MockERC721Upgradeable'
+   ---------------------------------
+   > transaction hash:    0xe427d2b5072b92ef5d09b95c8a231d95d5005b23cf3c5141f4b808b542c3500e
+   > Blocks: 4            Seconds: 12
+   > contract address:    0x7d9405441f805Da40E6e7f0cFf4eFdc175f18bf4
+   > block number:        31919029
+   > block timestamp:     1690453624
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             0.494066705
+   > gas used:            1728452 (0x1a5fc4)
+   > gas price:           2.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00432113 ETH
+
+
+   Deploying 'ProxyAdmin'
+   ----------------------
+   > transaction hash:    0xa677c48b5582b1c595f0f6d83ea932a48b05c9f2132dd3018fa4036a2c176fe1
+   > Blocks: 6            Seconds: 18
+   > contract address:    0x23E310D07F042Fe0eb1aEFfDd93d80b62536345C
+   > block number:        31919036
+   > block timestamp:     1690453645
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             0.4928515375
+   > gas used:            486067 (0x76ab3)
+   > gas price:           2.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0012151675 ETH
+
+
+   Deploying 'TransparentUpgradeableProxy'
+   ---------------------------------------
+   > transaction hash:    0xb5d29fa5450e6254007b03d46ebe627802fff9a15617be37ac02149c80f4f290
+   > Blocks: 4            Seconds: 12
+   > contract address:    0xb17067aE7bceBeB9B7dFaF4AeC73aB18c9689Fe0
+   > block number:        31919043
+   > block timestamp:     1690453666
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             0.490956485
+   > gas used:            758021 (0xb9105)
+   > gas price:           2.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0018950525 ETH
+
+
+   Deploying 'MockERC1155Upgradeable'
+   ----------------------------------
+   > transaction hash:    0xf3a6cfeb9f66975e2bb2a0a4d31e9bcb014a98858db6a00f3f6424367af95294
+   > Blocks: 6            Seconds: 16
+   > contract address:    0x643587D2a1814d53f39D99f3572D0d2c55880E70
+   > block number:        31919050
+   > block timestamp:     1690453687
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             0.48645872
+   > gas used:            1799106 (0x1b73c2)
+   > gas price:           2.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.004497765 ETH
+
+
+   Deploying 'TransparentUpgradeableProxy'
+   ---------------------------------------
+   > transaction hash:    0x409e9049974227bd8e9b999df64e72d8c63db1aaa528a2df9026c948c8b98ba3
+   > Blocks: 4            Seconds: 12
+   > contract address:    0xdEf640235347FD678A0100303f3a2E3473dD8847
+   > block number:        31919057
+   > block timestamp:     1690453708
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             0.4847294875
+   > gas used:            691693 (0xa8ded)
+   > gas price:           2.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0017292325 ETH
+
+
+   Deploying 'CrossChainBridge'
+   ----------------------------
+   > transaction hash:    0xea48a95b3e16241615c8336b428ca66f5d6719b9132efe3e654c6e56b5e2b1d2
+   > Blocks: 4            Seconds: 12
+   > contract address:    0x8cC59CE4ac2E7d60ed49ec01CF9F1e02fCC1340f
+   > block number:        31919064
+   > block timestamp:     1690453729
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             0.47584337
+   > gas used:            3554447 (0x363c8f)
+   > gas price:           2.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0088861175 ETH
+
+
+   Deploying 'TransparentUpgradeableProxy'
+   ---------------------------------------
+   > transaction hash:    0x20465574b7b1e52daf20b3dd77e152227da36cd0b6ba25c634e3897e23b71cd5
+   > Blocks: 3            Seconds: 8
+   > contract address:    0x15e67AB6A07D2222766AD24Dd71d31cEBDC79d42
+   > block number:        31919071
+   > block timestamp:     1690453750
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             0.47406908
+   > gas used:            709716 (0xad454)
+   > gas price:           2.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00177429 ETH
+
+Token bscTestnet: 0x17D3e3819830672DC29cb7192b6641c297b0B838
+MockERC721 bscTestnet: 0xb17067aE7bceBeB9B7dFaF4AeC73aB18c9689Fe0
+MockERC1155 bscTestnet: 0xdEf640235347FD678A0100303f3a2E3473dD8847
+Bridge bscTestnet: 0x15e67AB6A07D2222766AD24Dd71d31cEBDC79d42
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02593092 ETH
+
+Summary
+=======
+> Total deployments:   8
+> Final cost:          0.02593092 ETH
+
+
+crypto.contracts.bridge|master⚡ ⇒
+crypto.contracts.bridge|master⚡ ⇒ truffle migrate -f 3 --to 3 --network bscTestnet
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'bscTestnet'
+> Network id:      97
+> Block gas limit: 50000000 (0x2faf080)
+
+
+3_upgrade_bridge.js
+===================
+Owner: 0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+
+   Deploying 'CrossChainBridge'
+   ----------------------------
+   > transaction hash:    0x1e7ac10d3bd19e5f9f2810959a4e43c188f95fcfb0d842a44945212b5b787e70
+   > Blocks: 6            Seconds: 20
+   > contract address:    0xe1D3a1955A2b716b1634F92cec2Df731b9CEee11
+   > block number:        31920324
+   > block timestamp:     1690457509
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             0.4640826325
+   > gas used:            3566487 (0x366b97)
+   > gas price:           2.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0089162175 ETH
+
+Upgraded Bridge: 0x15e67AB6A07D2222766AD24Dd71d31cEBDC79d42
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:        0.0089162175 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.0089162175 ETH
+
+
+crypto.contracts.bridge|master⚡ ⇒
+
+

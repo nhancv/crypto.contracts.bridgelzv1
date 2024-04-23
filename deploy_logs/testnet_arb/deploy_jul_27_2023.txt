@@ -1,0 +1,198 @@
+crypto.contracts.bridge|master⚡ ⇒ truffle migrate -f 1 --to 1 --network arbitrumGoerli
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'arbitrumGoerli'
+> Network id:      421613
+> Block gas limit: 1125899906842624 (0x4000000000000)
+
+
+1_deploy_contracts.js
+=====================
+Owner: 0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+
+   Deploying 'MockERC20'
+   ---------------------
+   > transaction hash:    0x014c94445da26e89c4697f4d7ee01893c0f43461fc4ee3a46c9fbf520120a344
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x17D3e3819830672DC29cb7192b6641c297b0B838
+   > block number:        31915070
+   > block timestamp:     1690453879
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             1.0999094291
+   > gas used:            905709 (0xdd1ed)
+   > gas price:           2.6 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0023548434 ETH
+
+
+   Deploying 'MockERC721Upgradeable'
+   ---------------------------------
+   > transaction hash:    0x69414022dc6f442ba684789e1ef0923ee4da36c4c73e51d1fe62f467b91ac4f8
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x7d9405441f805Da40E6e7f0cFf4eFdc175f18bf4
+   > block number:        31915085
+   > block timestamp:     1690453886
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             1.0996833524
+   > gas used:            2260767 (0x227f1f)
+   > gas price:           2.6 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0058779942 ETH
+
+
+   Deploying 'ProxyAdmin'
+   ----------------------
+   > transaction hash:    0xb99dea26bc3a19e61084927c4291234e141b22a3c1650faed4d17bcda0a8871b
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x23E310D07F042Fe0eb1aEFfDd93d80b62536345C
+   > block number:        31915096
+   > block timestamp:     1690453892
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             1.0996182726
+   > gas used:            650798 (0x9ee2e)
+   > gas price:           2.6 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0016920748 ETH
+
+
+   Deploying 'TransparentUpgradeableProxy'
+   ---------------------------------------
+   > transaction hash:    0x9c3df9c88f2eaf1c2d687b01f091bb3970d82f80f9cb55f50a854277ed0976dd
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xb17067aE7bceBeB9B7dFaF4AeC73aB18c9689Fe0
+   > block number:        31915103
+   > block timestamp:     1690453897
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             1.0995143042
+   > gas used:            1039684 (0xfdd44)
+   > gas price:           2.6 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0027031784 ETH
+
+
+   Deploying 'MockERC1155Upgradeable'
+   ----------------------------------
+   > transaction hash:    0xb0913aad25c3070a05746f7d82525bf92aa3581e3255ead195b06109cffe8208
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x643587D2a1814d53f39D99f3572D0d2c55880E70
+   > block number:        31915115
+   > block timestamp:     1690453903
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             1.0992800662
+   > gas used:            2342380 (0x23bdec)
+   > gas price:           2.6 gwei
+   > value sent:          0 ETH
+   > total cost:          0.006090188 ETH
+
+
+   Deploying 'TransparentUpgradeableProxy'
+   ---------------------------------------
+   > transaction hash:    0x3afecde7ed9d3d38d54741033a529fb84e0ed59d525e6c6ff6a2c4f37bbe002d
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xdEf640235347FD678A0100303f3a2E3473dD8847
+   > block number:        31915124
+   > block timestamp:     1690453910
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             1.0991830687
+   > gas used:            969975 (0xeccf7)
+   > gas price:           2.6 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002521935 ETH
+
+
+   Deploying 'CrossChainBridge'
+   ----------------------------
+   > transaction hash:    0x6e53337e6df648cfa3c76250ae09af00309edade952349dc2e54507eb909e6e6
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x8cC59CE4ac2E7d60ed49ec01CF9F1e02fCC1340f
+   > block number:        31915136
+   > block timestamp:     1690453916
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             1.0987251946
+   > gas used:            4578741 (0x45ddb5)
+   > gas price:           2.6 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0119047266 ETH
+
+
+   Deploying 'TransparentUpgradeableProxy'
+   ---------------------------------------
+   > transaction hash:    0x0286f4821abfe51b93f56f002a2515982dc4d385ac40d173519884921c35ab0e
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x15e67AB6A07D2222766AD24Dd71d31cEBDC79d42
+   > block number:        31915150
+   > block timestamp:     1690453923
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             1.09862608
+   > gas used:            991146 (0xf1faa)
+   > gas price:           2.6 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0025769796 ETH
+
+Token arbitrumGoerli: 0x17D3e3819830672DC29cb7192b6641c297b0B838
+MockERC721 arbitrumGoerli: 0xb17067aE7bceBeB9B7dFaF4AeC73aB18c9689Fe0
+MockERC1155 arbitrumGoerli: 0xdEf640235347FD678A0100303f3a2E3473dD8847
+Bridge arbitrumGoerli: 0x15e67AB6A07D2222766AD24Dd71d31cEBDC79d42
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.03572192 ETH
+
+Summary
+=======
+> Total deployments:   8
+> Final cost:          0.03572192 ETH
+
+
+crypto.contracts.bridge|master⚡ ⇒
+crypto.contracts.bridge|master⚡ ⇒ truffle migrate -f 3 --to 3 --network arbitrumGoerli
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'arbitrumGoerli'
+> Network id:      421613
+> Block gas limit: 1125899906842624 (0x4000000000000)
+
+
+3_upgrade_bridge.js
+===================
+Owner: 0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+
+   Deploying 'CrossChainBridge'
+   ----------------------------
+   > transaction hash:    0x624777773c5137611f4506da18be6e199ef4e91c5b8eb8b39ceb364a2906fd6a
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x85a52B0934Cd57158Da4289414D0C88725df480b
+   > block number:        31921357
+   > block timestamp:     1690457562
+   > account:             0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+   > balance:             1.098128844
+   > gas used:            4436610 (0x43b282)
+   > gas price:           2.6 gwei
+   > value sent:          0 ETH
+   > total cost:          0.011535186 ETH
+
+Upgraded Bridge: 0x15e67AB6A07D2222766AD24Dd71d31cEBDC79d42
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.011535186 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.011535186 ETH
+
+
+crypto.contracts.bridge|master⚡ ⇒
+
+

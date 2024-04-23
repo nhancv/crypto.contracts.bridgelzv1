@@ -1,0 +1,13 @@
+.env*
+!.env.example
+node_modules
+.idea
+*.DS_Store
+src/abis
+.openzeppelin/unknown-1337.json
+.openzeppelin/unknown-31337.json
+scripts_local/csv_files/input/*
+!scripts_local/csv_files/input/.gitkeep
+!scripts_local/csv_files/input/file.csv
+scripts_local/csv_files/output/*
+!scripts_local/csv_files/output/.gitkeep

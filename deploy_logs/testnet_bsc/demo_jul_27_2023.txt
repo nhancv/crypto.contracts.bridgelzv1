@@ -1,0 +1,49 @@
+crypto.contracts.bridge|master⚡ ⇒ truffle migrate -f 2 --to 2 --network bscTestnet
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'bscTestnet'
+> Network id:      97
+> Block gas limit: 49804689 (0x2f7f591)
+
+
+2_demo_bridge.js
+================
+Owner: 0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+{
+  network: 'bscTestnet',
+  instanceToken: '0x17D3e3819830672DC29cb7192b6641c297b0B838',
+  instanceBridge: '0x15e67AB6A07D2222766AD24Dd71d31cEBDC79d42',
+  dstChainId: 10143
+}
+PROCESSING FROM A NETWORK: bscTestnet
+demoUpdateText: Hello from bscTestnet
+estimateUpdateTextFee: 0.003575826717201615
+updateTextTx (gasUsed: 251391): 0xb6c77873705d34e238596ea67f6fa9627027b3002dbfb994608506ce413ba8e3
+demoSwapERC20
+approveTx: 0x252173b8a9d03fc1e26b686ed88100410753caabd97950be03368da8e7132a4b
+estimateSwapTokensFee: 0.003575826717201615
+swapTokensTx (gasUsed: 236169): 0x69c36b6e564b7805c13ad8acb6837b0c2abd33e7c54d98c117758b778c571bd3
+demoSwapERC721
+setApprovalForAllTx: 0x323f5fad993423a4e1fecd76fd11002c672d3f5e0d1933185663d7772456a4a9
+estimateSwapNFTFee: 0.003575826717201615
+swapNFTTx (gasUsed: 268344): 0x168c744466c501ea319b2903804d2a3fb7c2f918cc657d81ddd90f442131e969
+demoSwapERC1155
+setApprovalForAllTx: 0x40cada408faf2ed1eced7dab9b9731c225c0c1aa7dc751f9994399eea696a41b
+estimateSwapFTFee: 0.003579785207240746
+swapFTTx (gasUsed: 259663): 0x197009596784a5dccddb14dfc8a9476c9da127a20fb0fc6079a65793b7cfa9c4
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+Summary
+=======
+> Total deployments:   0
+> Final cost:          0 ETH
+
+
+crypto.contracts.bridge|master⚡ ⇒

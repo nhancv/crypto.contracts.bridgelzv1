@@ -1,0 +1,82 @@
+
+# PRE-CONFIG ON BSC FIRST
+
+crypto.contracts.bridge|master⚡ ⇒ truffle migrate -f 2 --to 2 --network bscTestnet
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'bscTestnet'
+> Network id:      97
+> Block gas limit: 50000000 (0x2faf080)
+
+
+2_demo_bridge.js
+================
+Owner: 0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+{
+  network: 'bscTestnet',
+  instanceToken: '0x17D3e3819830672DC29cb7192b6641c297b0B838',
+  instanceBridge: '0x15e67AB6A07D2222766AD24Dd71d31cEBDC79d42',
+  dstChainId: 10143
+}
+preConfigOnBSCSide
+deposit tokens: 0xaf908bc35add36c1495114144e58149bf17d4d3602fad0a7c598c1b37a25ce9d
+deposit NFT: 0x12f7591435cb1718f104a6a009b875fbabe5ef01cef0cc30c76e7253d35d9ce2
+deposit FT: 0x40a6d370f003c1d3637d9419af438ea337c89815bbb83071dafd6d190fd48ae4
+
+
+# DEMO
+crypto.contracts.bridge|master⚡ ⇒ truffle migrate -f 2 --to 2 --network arbitrumGoerli
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'arbitrumGoerli'
+> Network id:      421613
+> Block gas limit: 1125899906842624 (0x4000000000000)
+
+
+2_demo_bridge.js
+================
+Owner: 0x2f1C1C44b3c16659302Af16aB231BEF38C371c2E
+{
+  network: 'arbitrumGoerli',
+  instanceToken: '0x17D3e3819830672DC29cb7192b6641c297b0B838',
+  instanceBridge: '0x15e67AB6A07D2222766AD24Dd71d31cEBDC79d42',
+  dstChainId: 10102
+}
+PROCESSING FROM A NETWORK: arbitrumGoerli
+demoUpdateText: Hello from arbitrumGoerli
+estimateUpdateTextFee: 0.000987772061602387
+updateTextTx (gasUsed: 273458): 0xb011d433650f1748e2c263f0ed7d4ed8ba86095d2e5f087786ac9cfade2cf10c
+demoSwapERC20
+approveTx: 0x40cdb7f0669d1be83cd9d6b9c9d8983c2235b210c04f4587510388209aec39d5
+estimateSwapTokensFee: 0.000987772061602387
+swapTokensTx (gasUsed: 276928): 0xd4902fd123669e49acb91a25e4848bae4eb6f769b8cdd415650a3bcf0016383b
+demoSwapERC721
+setApprovalForAllTx: 0x9fa083891db0957ac7ec5ad1ce820c644f9cf336f9d2010e332cd916bbf03fe5
+estimateSwapNFTFee: 0.000987772061602387
+swapNFTTx (gasUsed: 287203): 0x5c14d679121827b8afe5926209dcc5487dbbdf88b023fe2487119279665de770
+demoSwapERC1155
+setApprovalForAllTx: 0x90d0fbabbf1b6bf86abed5f416abcba2550bb80ba77c29932d57175a3955932d
+estimateSwapFTFee: 0.000988426584395968
+swapFTTx (gasUsed: 281682): 0xe2d2adc5e5535ae9308e448570ee4a6cb73d87e1c0462c260e5d7a18449f6226
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+Summary
+=======
+> Total deployments:   0
+> Final cost:          0 ETH
+
+
+crypto.contracts.bridge|master⚡ ⇒
